@@ -13,3 +13,13 @@ header {
     color: white;
     background-color: #E579E6;
 }
+
+main {
+    margin-top: 20px;
+}
+
+main .first-section {
+    color: white;
+    background-color: #E1D67A;
+}
+

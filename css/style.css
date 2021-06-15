@@ -43,15 +43,18 @@ main .second-section .title {
 
 .paragraph {
     width: calc(100% / 5);
-    float: left;
     background-color: #82BFFA;
 }
 
 .paragraph-center {
     width: calc((100% / 5)*3 - 26px);
-    float: left;
     background-color: #82BFFA;
     margin: 0 13px 16px 13px;
+}
+
+.paragraph,
+.paragraph-center {
+    float: left;
 }
 
 .clearfix::after {
